@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My cafe contact us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+         body   {
+            background-image: linear-gradient(to right, black,#26262d);
+            font-family:'Dancing Script', cursive;
+            color: white;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: inline-block;
+            text-decoration:none !important;
+            color: white !important;
+            padding: 10px 20px !important;
+            text-align: center !important;
+            font-size: 20px !important;
+            font-family:'Dancing Script', cursive;
+            transition:font-size 1s !important;
+        }
+        li a:hover{
+            border: 2px solid white !important;
+            border-radius: 5px !important;
+            font-size: 22px !important;
+            }
+        .nav-link{
+            background-color: black;
+        }
+        .cont-form{
+                width: 400px;
+                height: 450px;
+                border: 2px solid #ffffff;
+                border-radius: 8px;
+                margin-left: 50px;
+                transition: width 1s;
+               
+        }
+        .cont-form:hover{
+            width: 540px;
+        }
+        input[type="text"]{
+            display: block;
+            margin:10px 40px 10px;
+            width: 220px;
+            height: 32px;
+            background-color: transparent;
+            border-radius: 10px;
+            border: 2px solid white;
+            transition: width 1s;
+            color: white;
+            font-family:'Dancing Script', cursive;
+            padding-left: 10px;
+
+        }
+        input[type="text"]:hover{
+            width: 320px;
+
+        }
+        label,p,textarea{
+            margin-left: 10px;
+        }
+        .btn-b{
+            border: 2px solid white;
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+<body>  
+    <div class="nav-link">
+        <ul>
+            <li><a href="Mycafe_nav.html">Home</a></li>
+            <li><a href="Mycafe_team.html">About</a></li>
+            <li><a href="Mycafe_special.html">Special</a></li>
+            <li><a href="Mycafe_contact.html">Contact</a></li>
+        </ul>
+      </div>
+    <h1 class="m-2">My Cafe</h1>  
+    <div class="mt-4"style="float: left;width: 30%;">
+        <h1>Write us <img src="mail_img.jpg " style="width: 300px; "/></h1>
+        <p>You can write your query or to get in touch with us regarding <b>Orders</b> 
+            or <b>Bookings</b>. We would love to hear from you with no time limits. And you <canvas>
+                expect to hear from us within <strong>24</strong>hrs.
+            </canvas></p>
+    </div>
+    <div style="float: left;width: 70%;">
+        <h1> Contact</h1>
+        <div class="cont-form">
+            <label>Name</label><input type="text"/>
+            <label>Contact/ Mobile</label><input type="text"/>
+            <label>City</label><input type="text"/>
+            <label>Query regarding please select</label>
+            <select name="regard">
+                <option value="booking">Booking</option>
+                <option value="reservation">Reservation</option>
+                <option value="special order">Special Order</option>
+                <option value="others">Others</option >
+            </select>
+            <p>Message here</p>
+            <textarea style="width: 150px;height: 100px;overflow: hidden;">
+                Write us here...
+            </textarea> 
+            <a href="#" class="btn text-white btn-b">Submit here</a>
+        </div>
+
+    </div>
+</body>
+</html>

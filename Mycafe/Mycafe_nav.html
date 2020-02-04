@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My cafe About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url(cafenew.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 100%;
+            overflow: hidden;      
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 175px;
+            background-color: transparent;
+        }
+        li a{
+            display: block;
+            text-decoration: none !important;
+            padding: 12px 18px;
+            font-size: 20px;
+            color: white !important;
+            font-family:'Dancing Script', cursive;
+            border-bottom: 2px solid white;
+            text-align: center;
+        }
+        li a:hover{
+            background-color: black;
+            font-size:22px;
+        }
+        h1{
+            color: white;
+            font-style: italic;
+            font-weight: 400;
+            font-size:40px;
+            /* font-family: 'Pacifico', cursive; */
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            margin-left: 20px;
+        }
+        .intro-cafe {
+            
+            position:absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            background-color: #26262d;
+        }
+
+        .bg-img{
+            background-image: linear-gradient(black, #26262d);
+            border: none;
+            font-family:'Dancing Script', cursive;
+        }
+        .bg, .heading-h4{
+            
+            font-family:'Dancing Script', cursive;
+        }
+        .btn-b{
+            border: 2px solid white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row">           
+            <div>
+                <ul>
+                    <li><a href="Mycafe_nav.html">Home</a></li>
+                    <li><a href="Mycafe_team.html">About</a></li>
+                    <li><a href="Mycafe_special.html">Special</a></li>
+                    <li><a href="Mycafe_contact.html">Contact</a></li>
+                </ul>
+            </div>
+        
+            <div>
+                <h1 class="ml-5 mt-5">
+                    My cafe
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col w-25"></div>
+            <div class="card w-50 mr-3">
+                <div class="card-body bg-img text-white">
+                <h5 class="card-title">Who we are..</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Quis, obcaecati nobis libero 
+                    deserunt nostrum aut neque repellat exercitationem sequi reprehenderit 
+                    suscipit doloribus nulla assumenda, cum voluptate accusantium labore 
+                    laudantium praesentium.loribus nulla assumenda, cum voluptate accusantium labore 
+                    laudantium praesentium.ditional content.</p>
+                <a href="Mycafe_special.html" class="btn btn-b text-white">Know more</a>
+                </div>
+            </div>
+            <div class="col w-25 text-white">
+                <h4 class="heading-h4">Know more about us</h4>
+                <video controls style="width: 300px;height: 200px;">
+                    <source src="mycafe_video.mp4"/>
+                </video>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

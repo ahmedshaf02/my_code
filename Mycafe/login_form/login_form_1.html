@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My form</title>
+	<meta/>
+	<link/>
+	<style>
+		
+		body{
+		background-color:#26262d;
+	}
+	
+	
+	div{
+		background-image: url(../new_images/black_bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 400px;
+		height: 400px;
+		text-align: center;
+		border-radius: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 50px;
+		border: 2px solid #26262d;
+		box-shadow: 6px 8px 20px 9px rgba(0,0,0,0.75);
+		
+	}
+
+	h3{
+		margin-top: 0;
+		padding: 28px;
+		font-size: 30px;
+		color: lawngreen;
+		transition: font-size 0.5s
+	}
+	
+	h3:hover{
+				font-size: 36px;
+			}
+	
+	label{
+		display: block;
+		padding-right:180px;
+		color: lawngreen;
+		
+	}
+	
+	input{
+		background-color:black;
+		border: 2px solid lawngreen;
+		width: 200px;
+		padding: 16px 24px;
+		border-radius: 30px;
+		transition: width 0.5s;
+		color: white;
+		
+			
+		
+	}
+	input:hover:not(#btn){
+		border-radius: 30px;
+		width: 320px;
+		font-size: 16px;
+		border: 2px solid dodgerblue;
+		outline: none;
+		
+	}
+	#btn{
+		margin-top: 20px;
+		height: 50px;
+		color: lawngreen;
+		width: 140px;
+	}
+	i{
+		margin-left: 10px;
+	}
+	</style>
+	
+
+    <script src="https://kit.fontawesome.com/2e935f81ef.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+
+	<div>
+		<form>
+			<h3>Log In form</h3>
+			<label>Email Id:</label><br/>
+			<input type="email" name="email" placeholder=" please enter your email" required="required"/><br/><br/>
+			
+			<label>Password:</label><br/>
+			<input type="password" name="pass"
+			placeholder="please enter password here"/><br/>
+			
+			<input id="btn" type="submit" value="Submit" onclick="myfunc()">
+			
+		
+		</form>
+		<script>
+			
+			function myfunc(){
+				alert('Form submitted');
+			}
+		</script>
+	
+	
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-image: url(bg3_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    color: rgba(255,255,255,0.85);
+
+
+}
+.form-class {
+    padding: 34px 54px;
+    top: 14vh;
+    border: 0px solid rgba(0,0,0,0.75);
+    /* border-radius: 45px 0px 84px 30px; */
+    /* border-radius: 175px 180px 0px 175px;*/
+    box-shadow: 6px 8px 20px 9px rgba(0,0,0,0.75);
+}
+div > img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 175px;
+    top: 30px;
+    z-index: 1;
+    border-radius: 50%;
+}
